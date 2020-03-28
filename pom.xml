@@ -8,7 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>life.majiang.community</groupId>
+    <groupId>com.zh.community</groupId>
     <artifactId>community</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>community</name>
@@ -22,8 +22,8 @@
             <id>dev</id>
             <properties>
                 <db.url>jdbc:h2:~/community</db.url>
-                <db.user>sa</db.user>
-                <db.password>123</db.password>
+                <db.user>zh</db.user>
+                <db.password>123456</db.password>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -93,9 +93,9 @@
             <version>3.9</version>
         </dependency>
         <dependency>
-            <groupId>cn.ucloud.ufile</groupId>
-            <artifactId>ufile-client-java</artifactId>
-            <version>2.1.1</version>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>3.8.0</version>
         </dependency>
     </dependencies>
 
